@@ -1,0 +1,104 @@
+/* Styles communs à toutes les pages */
+img {
+  width: 300px;
+  transition: transform 0.5s;
+}
+img:hover {
+  transform: scale(1.2);
+}
+h1 {
+  color: green;
+  text-align: center;
+}
+a:link {
+  text-decoration: underline; /* Soulignement par défaut */
+  color: black; /* Couleur par défaut */
+}
+
+a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+  color: blue; /* Couleur au survol */
+}
+body{
+  background-color:moccasin;
+}
+/* Style commun pour les liens */
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* Style des images pour le mouvement au survol */
+img {
+  transition: transform 0.3s ease;
+}
+
+/* Style spécifique pour la première page */
+.page1:hover img {
+  transform: rotate(10deg);
+
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Permet d'aligner les éléments horizontalement */
+}
+
+li {
+  margin: 0 10px; /* Marge entre les éléments de la liste */
+}
+/* Style spécifique pour la deuxième page */
+.page2:hover img {
+  transform: scale(1.1);
+}
+
+/* Style spécifique pour la troisième page */
+.page3:hover img {
+  transform: translate(10px, 10px);
+  }
+  button {
+    background-color: aquamarine; /* Couleur par défaut */
+  }
+  
+  button:hover {
+    background-color: orange; /* Couleur au clic de la souris */
+  }   
+
+footer {
+  background-color: rgba(0, 0, 0, 0.747);
+  text-align: center;
+  font-style: italic;
+  color: white;
+  padding-bottom: 100px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset{
+  width: 30%;
+  align-items: center;
+  border-radius: 5px;
+}
+
+form input{
+  border-radius: 5px;
+
+}
+
+p{
+  display: flex;
+  justify-content: center;
+}
+
+    
+    
